@@ -1,0 +1,45 @@
+body{
+margin: 0;
+font-family: sans-serif;
+
+}
+
+.hashtag-header{
+    width: 100%;
+    padding: 1rem;
+   height: 140px;
+    background-color: #065fd4;
+    color:white;
+    background-image: url(/image/background.png);
+background-size: 250px;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-position-x: 102%;
+    background-position-y: -160px
+    
+}
+span{
+
+}
+
+h3 span{
+    background-color: red;
+    margin: 0;   
+}
+.hashtag-header img{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    border: 3px solid white;
+    vertical-align: middle;
+}
+img{
+      margin-left: -1rem;
+}
+.images-container{
+    display: inline-flex;
+    flex-direction:  row-reverse;
+ justify-content: center;
+ vertical-align: middle;
+ margin-left: 1.3em;
+}
